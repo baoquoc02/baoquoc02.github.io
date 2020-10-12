@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	src: url(../font/Roboto-Black.ttf);
+	font-family: robotoblack
+}
+@font-face{
+	src: url(../font/Roboto-Light.ttf);
+	font-family: robotolight
+}
+@font-face{
+	src: url(../font/Roboto-Medium.ttf);
+	font-family: robotomedium
+}
+@font-face{
+	src: url(../font/Roboto-Regular.ttf);
+	font-family: robotoregular
+}
+.wrapper{
+	width: 1920px;
+	height: 2000px;
+/*	background: red;*/
+	margin: 0 auto
+}
+.header{
+	width: 1920px;
+	height: 100px;
+	background: white;
+}
+.logo{
+	width: 280px;
+	height: 80px;
+/*	background: pink;*/
+	float: left;
+	border-right: 4px solid #AFAFAF;
+	margin-top: 10px
+}
+.logo img{
+	height: 50px;
+	width: auto;
+	margin-top: 15px;
+	margin-left: 60px
+}
+.menu{
+	width: 1000px;
+	height: 100px;
+/*	background: green;*/
+	float: left;
+	font-family:'robotoblack';
+}
+.menu ul{
+	list-style: none;
+	text-align: center;
+	margin-top: 25px;
+}
+.menu ul li{
+	display: inline-block;
+	height:50px;
+/*	background: blue;*/
+	text-align: center;
+	line-height: 55px;
+	float: left;
+	margin-right: 50px;
+	margin-left: 20px
+}
+.menu ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+}
+.menu a:hover{
+	color:#FBAC18 
+}
+.social{
+	height: 30px;
+/*	background: yellow;*/
+	float: right;
+	margin-top: 40px;
+	border-right: 4px solid #AFAFAF
+}
+.social img{
+	height: 25px;
+	margin-right: 20px;
+}
+.timkiem img{
+	height: 30px;
+/*	background: yellow;*/
+	float: right;
+	margin-top: 40px;
+	margin-left: 20px
+}
+.lienhevoitoi{
+	width: 150px;
+	height: 40px;
+	background: #202020;
+	float: right;
+	margin-right: 60px;
+	margin-top: 35px;
+	margin-left: 20px;
+	border-radius: 10px;
+}
+.lienhevoitoi p{
+	font-family: 'robotomedium';
+	font-size: 15px;
+	display: inline-block;
+	color:white;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+/*body*/
+
+/*TRANG CHU*/
+.trangchu{
+	width: 1920px;
+	height: 700px;
+	background: #F0F0F0
+}
+.tui img{
+	height: 600px;
+	margin-top: 100px;
+	float: left;
+	margin-left: 30px
+}
+.chuky img{
+	height: 300px;
+	float: left;
+	margin-top: 50px;
+}
+.gioithieu{
+	height: auto;
+/*	background: #F21216;*/
+	float: left;
+	margin-top: 380px;
+}
+.chao{
+	font-family: 'robotomedium';
+	font-size: 50px;
+}
+.GD{
+	height: 58px;
+	width: 390px;
+/*	background: red;*/
+	font-family: 'robotomedium';
+	font-size: 50px;
+	color: #FBAC18;
+	border-right: 10px solid #AFAFAF
+}
+.thongtin{
+	width: 410px;
+/*	background: red;*/
+	font-family: 'robotolight';
+	font-size: 22px;
+	margin-top: 10px
+}
+
+.cham img{
+	height: 180px;
+	float: right;
+	margin-right: 60px;
+	margin-top: 60px
+}
+
+/*VE TOI*/
+.song img{
+	height: 150px;
+	margin-left: 60px;
+	margin-top: 60px
+}
+.vetoi{
+	width: 1920px;
+	height: 700px;
+	background: #F0F0F0;
+	float: left
+}
+.vetoigioithieu{
+	width: 710px;
+	margin-top: 60px;
+	margin-left: 300px
+/*	background: red*/
+}
+.vetoi1{
+	font-family: 'roboto medium';
+	font-size: 50px
+}
+.vetoi2{
+	font-family: 'robotomedium';
+	font-size: 50px;
+	color: #FBAC18
+}
+.vetoithongtin{
+	width: 750px;
+	font-family: 'robotolight';
+	font-size: 22px;
+	margin-top: 10px
+}
+.follow{
+	font-family: 'robotomedium';
+	font-size: 25px;
+	margin-top: 15px
+}
+.email{
+	width: 160px;
+	font-family: 'robotomedium';
+	font-size: 20px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 20px
+}
+.email a{
+	text-decoration: none;
+	color: black;
+	font-family: 'robotoregular';
+	font-size: 17px;
+}
+.email a:hover{
+	color: #FBAC18
+}
+.behance {
+	width: 160px;
+	font-family: 'robotomedium';
+	font-size: 20px;
+	float: left;
+	margin-top: 20px
+}
+.behance a{
+	text-decoration: none;
+	color: black;
+	font-family: 'robotoregular';
+	font-size: 17px;
+}
+.behance a:hover{
+	color: #FBAC18
+}
+.tui2 img{
+	height: 600px;
+	float: right;
+	margin-right: 300px;
+	margin-top: 100px
+}
+/*du an*/
+.duan{
+	width: 1920px;
+	height: 970px;
+	background: #F0F0F0;
+	float: left
+}
+.sanpham1 img{
+	height: 600px;
+	float: left;
+	clear: both;
+	margin-left: 60px
+}
+.sanpham1 img:hover{
+	box-shadow: 0px 0px 32px -7px rgba(0,0,0,0.5);
+}
+.sanpham2 img{
+	height: 600px;
+	float: left;
+	margin-left: 250px
+
+}
+.sanpham2 img:hover{
+	box-shadow: 0px 0px 32px -7px rgba(0,0,0,0.5);
+}
+.sanpham3 img{
+	height: 600px;
+	float: right;
+	margin-right: 60px
+}
+.sanpham3 img:hover{
+	box-shadow: 0px 0px 32px -7px rgba(0,0,0,0.5);
+}
+.thongtinduan{
+	width: 800px;
+/*	background: red;*/
+	margin-top: 60px;
+	margin-left: 60px;
+	float: left
+}
+.thongtinduan1{
+	font-family: 'robotomedium';
+	font-size: 50px
+}
+.thongtinduan2{
+	font-family: 'robotolight';
+	font-size: 22px;
+	margin-top: 10px
+}
+.menuduan{
+	width: 1000px;
+	height: 100px;
+/*	background: green;*/
+	float: left;
+	font-family:'robotoblack';
+	margin-left: -40px;
+	margin-top: 30px
+}
+.menuduan ul{
+	list-style: none;
+	text-align: center;
+	margin-top: 25px;
+}
+.menuduan ul li{
+	display: inline-block;
+	height:50px;
+/*	background: blue;*/
+	text-align: center;
+	line-height: 55px;
+	float: left;
+	margin-right: 50px;
+}
+.menuduan ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+}
+.menuduan a:hover{
+	color:#FBAC18 
+}
+/*footer*/
+.footer{
+	width: 1920px;
+	height: 100px;
+/*	background: green;*/
+	float: left
+}
+.social2{
+	height: 30px;
+/*	background: yellow;*/
+	float: right;
+	margin-top: 40px;
+	margin-right: 800px
+}
+.social2 img{
+	height: 25px;
+	margin-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
